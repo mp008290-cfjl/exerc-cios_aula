@@ -1,13 +1,13 @@
 print("programa para mostrar os 11 valores que você solicitou")
 print()
 
-valores = []
+valores = [0] * 11
 
-for i in range(11):
-    numero = float(input(f"informe o {i + 1}° numero: "))
-    numero.append
+for i in range(len(valores)):
+    valores[i] = int(input(f"informe o {i + 1}°: "))
+    
+for i in range(len(valores)):
+
+    print()
+    print(f"{valores[i]}")
     print("--------------------")
-
-numero.sort()
-
-
