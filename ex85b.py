@@ -1,3 +1,16 @@
 print("programa para ler o nome e a idade e listar as pessoas com mais de 18 anos")
 
-nomes = [""] * 7 
+QTDE = 7
+nomes = [""] * QTDE
+idades = [0] * QTDE
+
+for i in range(QTDE):
+    nomes[i] = input(f"informe o nome da pessoa {i + 1}: ")
+    idades[i] = input(f"informe a idade da pessoa {i + 1}: ")
+    print()
+
+print("pessoas maiores de idade")
+for i in range(QTDE):
+    if idades[i] >= 18:
+        print(f"-{nomes[i]}")
+    
