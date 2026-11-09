@@ -5,8 +5,8 @@ nomes = [""] * QTDE
 idades = [0] * QTDE
 
 for i in range(QTDE):
-    nomes[i] = input(f"informe o nome da pessoa {i + 1}: ")
-    idades[i] = input(f"informe a idade da pessoa {i + 1}: ")
+    nomes[i] = str(input(f"informe o nome da pessoa {i + 1}: "))
+    idades[i] = int(input(f"informe a idade da pessoa {i + 1}: "))
     print()
 
 print("pessoas maiores de idade")
