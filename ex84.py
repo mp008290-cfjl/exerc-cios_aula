@@ -1,3 +1,5 @@
+print("programa que informa o os números ímpares e pares")
+
 numeros = []
 
 for i in range(12):
