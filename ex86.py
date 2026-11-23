@@ -7,3 +7,5 @@ for i in range(10):
 x = int(input("Digite o número inteiro X: "))
 
 quantidade = numeros.count(x)
+
+print(f"O número {x} aparece {quantidade} vez(es) no vetor.")
