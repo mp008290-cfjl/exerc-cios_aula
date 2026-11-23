@@ -5,3 +5,5 @@ for i in range(10):
     numeros.append(numero)
 
 x = int(input("Digite o número inteiro X: "))
+
+quantidade = numeros.count(x)
