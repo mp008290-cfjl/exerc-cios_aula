@@ -11,3 +11,8 @@ for i in range(8):
 for i in range(8):
     valor = int(input(f"Y[{i}]: "))
     vetor_y.append(valor)
+
+    print("\nResultados das multiplicações:")
+for i in range(8):
+    resultado = vetor_x[i] * vetor_y[i]
+    print(f"X[{i}] × Y[{i}] = {resultado}")
