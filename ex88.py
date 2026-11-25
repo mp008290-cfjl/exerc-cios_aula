@@ -1,5 +1,8 @@
 alunos = []
 
+print("programa que mostra a nota média dos alunos e os nomes dos alunos com nota inferior a de 7")
+print()
+
 for i in range(5):
     nome = input(f"Digite o nome do aluno {i + 1}: ")
     nota = float(input(f"Digite a nota de {nome}: "))
