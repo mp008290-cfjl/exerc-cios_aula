@@ -6,3 +6,7 @@ for i in range(5):
     alunos.append((nome, nota))
 
 media = sum(nota for nome, nota in alunos) / len(alunos)
+
+
+print(f"\nMédia das notas: {media:.2f}")
+print("Alunos com nota menor que 7:")
