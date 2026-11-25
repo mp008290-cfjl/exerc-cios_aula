@@ -14,3 +14,6 @@ for posicao, numero in enumerate(numeros, start=1):
         soma_impares += numero
     else:
         multiplicacao_pares *= numero
+
+print(f"\nSoma dos valores nas posições ímpares: {soma_impares}")
+print(f"Multiplicação dos valores nas posições pares: {multiplicacao_pares}")
