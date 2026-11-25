@@ -6,3 +6,11 @@ for i in range(10):
 
 soma_impares = 0
 multiplicacao_pares = 1
+
+
+
+for posicao, numero in enumerate(numeros, start=1):
+    if posicao % 2 == 1:
+        soma_impares += numero
+    else:
+        multiplicacao_pares *= numero
